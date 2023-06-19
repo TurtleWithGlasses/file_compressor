@@ -7,7 +7,7 @@ choose_button1 = sg.FileBrowse("Choose", key="files")
 
 label2 = sg.Text("Select destination folger:")
 input2 = sg.Input()
-choose_button2 = sg.FileBrowse("Choose", key="folder")
+choose_button2 = sg.FolderBrowse("Choose", key="folder")
 
 compress_button = sg.Button("Compress")
 output_label = sg.Text(key="output")
